@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence
+	version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+	<persistence-unit name="examplePU">
+		<class>jlm.entity.AccessToken</class>
+        <class>jlm.entity.BlogPost</class>
+		<class>jlm.entity.AssertMaintain</class>
+		<class>jlm.entity.AssertKks</class>
+		<class>jlm.entity.User</class>
+		<class>jlm.entity.ComponentManage</class>
+		<class>jlm.entity.AssertMonthOperation</class>
+		<class>jlm.entity.AssertChanging</class>
+	</persistence-unit>
+</persistence>
